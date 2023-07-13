@@ -4,17 +4,16 @@ public class Main {
         Car car2 = new Car("car2");
 
         Truck truck = new Truck("truck1", 4);
+        ServiceStation serviceStation = new ServiceStation();
 
-        ServiceStation.check(truck);
-        ServiceStation.check(car);
-        ServiceStation.check(car2);
+        serviceStation.check(truck);
+        serviceStation.check(car);
+        serviceStation.check(car2);
 
 
         Bicycle bicycle = new Bicycle("bicycle1", 2);
         Bicycle bicycle2 = new Bicycle("bicycle2", 2);
-        ServiceStation.check(bicycle2);
-        ServiceStation.check(bicycle);
-
-
+        serviceStation.check(bicycle2);
+        serviceStation.check(bicycle);
     }
 }

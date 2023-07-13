@@ -1,5 +1,4 @@
 public interface Service {
-    static void check(Vehicle vehicle) {
-
-    }
+    void check(Vehicle vehicle);
 }
+

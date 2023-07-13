@@ -8,6 +8,7 @@ public class Truck extends MotorVehicle {
     }
 
     public void service() {
+        super.service();
         checkTrailer();
     }
 }
